@@ -1,6 +1,7 @@
 ﻿using MauiAppTempoAgora.Models;
 using Newtonsoft.Json.Linq;
 
+
 namespace MauiAppTempoAgora.Services
 {
     public class DataService
@@ -45,6 +46,7 @@ namespace MauiAppTempoAgora.Services
             } // fecha laço using
 
             return t;
+
         }
     }
 }
