@@ -7,10 +7,15 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+            <Button Text="Minha Localização" Clicked="Button_Clicked_localizacao" />
+            <Label x:Name="lbl_coords" />
+
+
             <Entry x:Name="txt_cidade" />
-            <Button Text="Buscar" Clicked="Button_Clicked" />
+            <Button Text="Buscar Previsao" Clicked="Button_Clicked_previsao" />
 
             <Label x:Name="lbl_res" />
+            <WebView x:Name="wv_mapa" HeightRequest="500" />
         </VerticalStackLayout>
     </ScrollView>
 
